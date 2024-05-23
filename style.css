@@ -138,6 +138,7 @@ button:hover{
         flex-direction: column;
         flex-wrap: wrap;
         gap: 2vw;
+        margin-bottom: 10vh;
     }
     .ph-email>button{
         width: 40vw;
