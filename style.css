@@ -109,6 +109,8 @@ section{
     margin-top: 10vh;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    /* gap: 5vh; */
 }
 .sale-text{
     width: 50vw;
@@ -189,5 +191,47 @@ section{
     button{
         font-size: 6vw;
         width: 80vw;
+    }
+    section{
+        width: 100%;
+        background-color: white;
+    }
+    .sale{
+        width: 100%;
+    }
+    .sale-text{
+        width: 100%;
+        margin-top: -2.5vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .sale-text>h1,h4{
+        margin-bottom: -2vh;
+    }
+    .sale-text>h1{
+        font-size: 3em;
+        line-height: -1em;
+    }
+    .sale-text>h4{
+        width: 100%;
+        margin-top: 3vh;
+        font-size: 1.25em;
+    }
+    .sale-text>a>button{
+        width: 50vw;
+    }
+    section>.sale{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 1vh; */
+    }
+    .sale>img{
+        width: 100%;
+        height: 40vh;
+        object-fit: cover;
+        /* margin-top: -3vh; */
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 }
